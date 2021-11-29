@@ -1,0 +1,26 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #a4b0be;
+    width: 98vw;
+}
+#greenDiv{
+    position: absolute;
+    height: 100%;
+    background-color: green;
+    transition: all 2s ease;
+    z-index: -1;
+}
+p{
+    width: max-content;
+    position: relative;
+    left: 20px;
+    opacity: 0.7;
+    font-size: larger;
+    font-weight: 700;
+}
+.p-bt{
+    position: absolute;
+    bottom: 40px;
+}
